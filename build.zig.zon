@@ -1,0 +1,15 @@
+.{
+    .name = "z64",
+    .version = "0.0.1-alpha.1",
+    .description = "Commodore 64 emulator",
+    .author = "Mike Rivnak <rivnakm1@gmail.com>",
+    .license = "MIT",
+    .url = "https://github.com/mrivnak/z64",
+    .paths = .{"src"},
+    .dependencies = .{
+        .clap = .{
+            .url = "https://github.com/Hejsil/zig-clap/archive/0f2db7700b05356ebb1ccddbbf1797048925f072.zip",
+            .hash = "12203896de6eedec14712f4f1eaac8b646939cfed213c56accf231a0abb05f9dbb77"
+        }
+    }
+}
